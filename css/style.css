@@ -1,0 +1,80 @@
+body{
+  background-image: url(https://media.istockphoto.com/photos/cement-shelf-and-floor-on-concrete-background-for-design-picture-id1345203265?b=1&k=20&m=1345203265&s=612x612&w=0&h=u4Vs0oatELuy1jPR8sAVgBeQ6Y-I4x2gjRJCJ6Ra-ZU=);
+}
+
+#page-wrapper{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.logo img{
+  height: 35px;
+  width: 117px;
+}
+
+.fa-globe{
+  color: gray;
+}
+.fa-globe:hover{
+  color: black;
+}
+
+.right{
+  margin-left: auto;
+}
+
+.usermenu{
+  padding-right: 60px;
+  margin: 5px;
+}
+
+.log{
+  text-decoration: none;
+  color:lightcoral;
+}
+.log:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+.banner{
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  text-align: center;
+}
+
+.banner h2{
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+}
+.banner h3{
+  font-weight: lighter;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.learn{
+  background-color: #fd647a;
+  text-decoration: none;
+  line-height: 3.1em;
+  border-radius: 0;
+  border: 0;
+  font-weight: 600;
+  font-size: .9rem;
+  padding: 16px;
+}
+.learn:hover{
+  background-color: red;
+  transition: .5s;
+}
+
+#page{
+  position: flex;
+}
