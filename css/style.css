@@ -1,8 +1,7 @@
-body{
-  background-image: url(https://media.istockphoto.com/photos/cement-shelf-and-floor-on-concrete-background-for-design-picture-id1345203265?b=1&k=20&m=1345203265&s=612x612&w=0&h=u4Vs0oatELuy1jPR8sAVgBeQ6Y-I4x2gjRJCJ6Ra-ZU=);
-}
-
 #page-wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: lighter;
   text-transform: uppercase;
@@ -25,6 +24,13 @@ body{
   margin-left: auto;
 }
 
+#page{
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.5em;
+}
+
 .usermenu{
   padding-right: 60px;
   margin: 5px;
@@ -39,11 +45,15 @@ body{
   color: red;
 }
 
-.banner{
-  position: absolute;
-  top: 40%;
-  left: 33%;
-  text-align: center;
+#frontpage-banner{
+  position: relative;
+  height: calc(100vh - 4.5rem);
+  margin-left: -15px;
+  margin-right: -15px;
+  background-image: url(https://cmshn.fpt.edu.vn/theme/image.php/trema/theme/1684246329/frontpage/overlay), url(https://cmshn.fpt.edu.vn/pluginfile.php/1/theme_trema/frontpagebanner/1684246329/sanhAlpha.jpg);
+  background-attachment: scroll, fixed;
+  background-position: center, center;
+  background-size: cover;
 }
 
 .banner h2{
@@ -75,6 +85,38 @@ body{
   transition: .5s;
 }
 
-#page{
-  position: flex;
+#frontpage-banner-content{
+  position: absolute;
+  text-align: center;
+  top: 39%;
+  left: 36%;
+}
+
+#page-footer{
+  background-color: #1a1c1b;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  text-transform: none;
+  font-size: .9em;
+}
+
+.loginfo a{
+  color: white;
+}
+
+.loginfo a:hover{
+  color: white;
+}
+
+.mobile{
+  color: white;
+}
+
+.mobile:hover {
+  color: white;
+}
+
+.copy-right{
+  margin: 3em 0 0;
 }
