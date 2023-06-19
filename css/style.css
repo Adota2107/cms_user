@@ -131,16 +131,20 @@ body.drawer-ease{
   z-index: 1;
   height: calc(100% - 50px);
   width: 285px;
+  left: -305px;
   top: 4rem;
   background-color: #29292a;
   padding: 1rem;
   transition: right .5s ease, left .5s ease;
 }
 
-#nav-drawer {
-  left: -305px;
+#nav-drawer.open {
+  left: 0;
 }
 
+#page-site-index.marginLeft {
+  margin-left: 285px;
+}
 .list-group{
   display: flex;
   flex-direction: column;
